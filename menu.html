@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Boxicons CND LINK -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Responsive Side Navigation Bar in</title>
+</head>
+
+<body>
+    <div class="sideber">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-c-plus-plus'></i>
+                <div class="logo_name">CondingLab</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
+
+                   <span class="tootilp">Search</span>
+
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_names">Dashboard</span>
+                </a>
+                <span class="tootilp">Dashboard</span>
+
+
+            </li>
+
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-user'></i>
+                    <span class="links_names">User</span>
+                </a>
+                <span class="tootilp">User</span>
+
+
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_names">Messages</span>
+                </a>
+                <span class="tootilp">Messages</span>
+
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-pie-chart'></i>
+                    <span class="links_names">Analytics</span>
+                </a>
+                <span class="tootilp">Analytics</span>
+
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-folder-open'></i>
+                    <span class="links_names">Files Maneger</span>
+                </a>
+                <span class="tootilp">Files</span>
+
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cart-alt'></i>
+                    <span class="links_names">Order</span>
+                </a>
+                <span class="tootilp">Order</span>
+
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <span class="links_names">Saved</span>
+                </a>
+                <span class="tootilp">Saved</span>
+
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="links_names">Setting</span>
+                </a>
+                <span class="tootilp">Setting</span>
+
+
+            </li>
+        </ul>
+
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="img/merda .png">
+                    <div class="name_job">
+                        <div class="name">Prem Shahi</div>
+                        <div class="job">Web Disigner</div>
+                    </div>
+                </div>
+
+                <i class='bx bx-log-out' id="log_out"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="home_content">
+        <div class="text">Home Content</div>
+    </div>
+
+    <script>
+        let bnt = document.querySelector("#btn");
+        let sideber = document.querySelector(".sideber");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sideber.classList.toggle("active");
+        }
+        
+        searchBtn.onclick = function() {
+            sideber.classList.toggle("active");
+        }
+
+    </script>
+</body>
+
+</html>
